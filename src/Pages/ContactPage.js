@@ -52,19 +52,18 @@ function ContactPage() {
             <ContactItem
               title={"Phone"}
               icon={phone}
-              cont1={"+66-789675637"}
-              cont2={"07530009122"}
+              cont1={"+91-9491236506"}
+              cont2={"8919167658"}
             />
             <ContactItem
               title={"Email"}
               icon={email}
-              cont1={"reddyraviteja74@gmail.com"}
-              cont2={"ravireddyrtr@gmail.com"}
+              cont1={"eteshb@gmail.com"}
             />
             <ContactItem
               title={"Address"}
               icon={location}
-              cont1={"Mig-colony-Adoni,Kurnool, A.P,"}
+              cont1={"Bharpet-Adoni,Kurnool, A.P,"}
               cont2={"India."}
             />
           </div>

@@ -1,17 +1,17 @@
 import React from "react";
 import styled from "styled-components";
-import resume from "../img/DP1.png";
+// import resume from "../img/DP1.png";
 import PrimaryButton from "./PrimaryButton";
 
 function ImageSection() {
   return (
     <ImageSectionStyled>
       <div className="left-content">
-        <img src={resume} alt="" />
+        <img src="../img/avatar.jpg" alt="" />
       </div>
       <div className="right-content">
         <h4>
-          I am <span>Ravi Teja Reddy</span>
+          I am <span>Bandari Etesh Kumar</span>
         </h4>
         <p className="paragraph">
           I am a self-motivated and hardworking person seeking for an
@@ -28,15 +28,15 @@ function ImageSection() {
             <p>Service</p>
           </div>
           <div className="info">
-            <p>: Ravi Teja Reddy</p>
-            <p>: 21</p>
+            <p>: Bandari Etesh Kumar</p>
+            <p>: 22</p>
             <p>: Indian</p>
-            <p>: English, Telugu, Kannada, Hindi </p>
+            <p>: English, Telugu, Marathi, Hindi </p>
             <p>: Andhra Pradesh, India </p>
             <p>: Full-stack web developer</p>
           </div>
         </div>
-        <a href="raviResume.pdf" target="_blank" download>
+        <a href="EteshResume.pdf" target="_blank" download>
           <PrimaryButton title={"Download Cv"} />
         </a>
       </div>

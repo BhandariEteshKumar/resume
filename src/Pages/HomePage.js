@@ -3,7 +3,7 @@ import styled from "styled-components";
 import LinkedinIcon from "@material-ui/icons/LinkedIn";
 
 import GithubIcon from "@material-ui/icons/GitHub";
-import YoutubeIcon from "@material-ui/icons/YouTube";
+// import YoutubeIcon from "@material-ui/icons/YouTube";
 import Particle from "../Components/Particle";
 
 function HomePage() {
@@ -14,7 +14,7 @@ function HomePage() {
       </div>
       <div className="typography">
         <h1>
-          Hi, I'm <span>Ravi Teja Reddy</span>
+          Hi, I'm <span>Bandari Etesh Kumar</span>
         </h1>
         <p>
           I am full-stack web developer,proficient in MERN stack and did many
@@ -22,7 +22,7 @@ function HomePage() {
         </p>
         <div className="icons">
           <a
-            href="https://www.linkedin.com/in/ravireddy1998/"
+            href="https://www.linkedin.com/in/etesh-kumar-29540b162/"
             className="icon i-linkedin"
             target="_blank"
             rel="noreferrer"
@@ -30,21 +30,21 @@ function HomePage() {
             <LinkedinIcon />
           </a>
           <a
-            href="https://github.com/ravihagane"
+            href="https://github.com/BhandariEteshKumar"
             className="icon i-github"
             target="_blank"
             rel="noreferrer"
           >
             <GithubIcon />
           </a>
-          <a
-            href="https://www.youtube.com/channel/UCkZiL_tspUQ6p7Vjvp8yFvQ"
+          {/* <a
+            href="https://www.youtube.com"
             className="icon i-youtube"
             target="_blank"
             rel="noreferrer"
           >
             <YoutubeIcon />
-          </a>
+          </a> */}
         </div>
       </div>
     </HomePageStyled>
